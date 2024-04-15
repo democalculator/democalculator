@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AdditionProgram {
+public class SubtractionProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,8 +10,8 @@ public class AdditionProgram {
         System.out.println("Enter the second number:");
         int num2 = scanner.nextInt();
 
-        int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        int difference = num1 - num2;
+        System.out.println("The difference of " + num1 + " and " + num2 + " is: " + difference);
 
         scanner.close();
     }
